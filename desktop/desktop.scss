@@ -1,41 +1,41 @@
 @font-face {
-  font-family: 'Helvetica';
+  font-family: "Helvetica";
   font-display: swap;
   font-style: normal;
   font-stretch: normal;
   font-weight: 300;
-  src: url('../assets/fonts/helvetica/helveticaLight.woff2') format('woff2'),
-       url('../assets/fonts/helvetica/helveticaLight.woff') format('woff');
+  src: url("../assets/fonts/helvetica/helveticaLight.woff2") format("woff2"),
+    url("../assets/fonts/helvetica/helveticaLight.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'Helvetica';
+  font-family: "Helvetica";
   font-display: swap;
   font-style: normal;
   font-stretch: normal;
   font-weight: 400;
-  src: url('../assets/fonts/helvetica/helveticaRegular.woff2') format('woff2'),
-       url('../assets/fonts/helvetica/helveticaRegular.woff') format('woff');
+  src: url("../assets/fonts/helvetica/helveticaRegular.woff2") format("woff2"),
+    url("../assets/fonts/helvetica/helveticaRegular.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'Helvetica';
+  font-family: "Helvetica";
   font-display: swap;
   font-style: oblique;
   font-stretch: normal;
   font-weight: 400;
-  src: url('../assets/fonts/helvetica/helveticaOblique.woff2') format('woff2'),
-       url('../assets/fonts/helvetica/helveticaOblique.woff') format('woff');
+  src: url("../assets/fonts/helvetica/helveticaOblique.woff2") format("woff2"),
+    url("../assets/fonts/helvetica/helveticaOblique.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'Helvetica';
+  font-family: "Helvetica";
   font-display: swap;
   font-style: normal;
   font-stretch: normal;
   font-weight: 700;
-  src: url('../assets/helvetica/helveticaBold.woff2') format('woff2'),
-       url('../assets/helvetica/helveticaBold.woff') format('woff');
+  src: url("../assets/helvetica/helveticaBold.woff2") format("woff2"),
+    url("../assets/helvetica/helveticaBold.woff") format("woff");
 }
 
 .profiler-result {
@@ -238,4 +238,8 @@ tbody {
 
 .consent_banner {
   display: none;
+}
+
+body {
+  font-family: $font !important;
 }
