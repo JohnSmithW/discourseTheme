@@ -20,16 +20,16 @@
   },
   "color_schemes": {
     "main colors": {
-       "primary": "#0B074E",
-       "secondary": "#0029F4",
-       "tertiary": "#F9D54B",
-       "quaternary": "#0029F4",
-       "header_background": "#0B074E",
-       "header_primary": "#fff",
-       "highlight": "#F9D54B",
-       "danger": "#E95043",
-       "success": "#179B64",
-       "love": "#E95043"
+       "primary": "0B074E",
+       "secondary": "0029F4",
+       "tertiary": "F9D54B",
+       "quaternary": "0029F4",
+       "header_background": "0B074E",
+       "header_primary": "fff",
+       "highlight": "F9D54B",
+       "danger": "E95043",
+       "success": "179B64",
+       "love": "E95043"
      }
  }
 }
