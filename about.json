@@ -8,7 +8,7 @@
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
   "assets": {
-    "font": "assets/font.woff",
+    "font": "assets/helvetica/helveticaRegular.woff",
     "waveSvg": "assets/wave.svg",
     "introSvg1": "assets/introSvg1.svg",
     "introSvg2": "assets/introSvg2.svg",
@@ -17,5 +17,19 @@
     "introSvg5": "assets/introSvg5.svg",
     "introSvg6": "assets/introSvg6.svg",
     "introSvg7": "assets/introSvg7.svg"
-  }
+  },
+  "color_schemes": {
+    "main": {
+       "primary": "#0B074E",
+       "secondary": "#0029F4",
+       "tertiary": "#F9D54B",
+       "quaternary": "#0029F4",
+       "header_background": "#0B074E",
+       "header_primary": "#fff",
+       "highlight": "#F9D54B",
+       "danger": "#E95043",
+       "success": "#179B64",
+       "love": "#E95043"
+     }
+ }
 }
