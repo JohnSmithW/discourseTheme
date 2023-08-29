@@ -10,7 +10,7 @@
   "assets": {
     "font": "assets/helvetica/helveticaRegular.woff",
     "waveSvg": "assets/wave.svg",
-    "herobg": "assets/introSvg7.svg",
+    "herobg": "assets/herobg.svg",
     "introSvg1": "assets/introSvg1.svg",
     "introSvg2": "assets/introSvg2.svg",
     "introSvg3": "assets/introSvg3.svg",
