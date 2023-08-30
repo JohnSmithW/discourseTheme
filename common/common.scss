@@ -131,7 +131,7 @@ tr {
   box-shadow: 0px 2px 0 0 var(--yellow-tertiary, #f9d54b) !important;
 }
 
-.btn-default.btn.btn-icon-text {
+.btn-default.btn.btn-icon-text, .btn-primary {
   display: flex;
   height: 40px;
   padding: 10px 50px;
