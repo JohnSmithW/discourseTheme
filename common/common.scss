@@ -94,6 +94,15 @@
   }
 }
 
+.nav-item_latest {
+  a {
+    color: var(--dark-blue, #0b074e);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+}
+
 .nav-item_latest.active.latest {
   a {
     box-shadow: 0px 2px 0 0 var(--yellow-tertiary, #f9d54b) !important;
