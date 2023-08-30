@@ -154,7 +154,6 @@ tr {
   border-left: none !important;
 }
 
-
 .fa.d-icon.d-icon-bars.svg-icon.svg-node {
   color: #fff;
   width: 16px;
@@ -162,6 +161,9 @@ tr {
 
 .widget-button.btn.btn-flat.btn-sidebar-toggle.no-text.btn-icon {
   &:hover {
-    background: #0B074E;
+    background: #fff;
+    svg {
+      color: #0b074e;
+    }
   }
 }
