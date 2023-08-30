@@ -22,6 +22,10 @@
 
 .sidebar-footer-container {
   background: #e8e1eb;
+
+  &:before {
+    background: #e8e1eb;
+  }
 }
 
 .sidebar-section-link-content-text {
