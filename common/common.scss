@@ -94,9 +94,12 @@
   }
 }
 
-
 .nav-item_latest.active.latest {
   a {
-    box-shadow: 0px 2px 0 0 var(--yellow-tertiary, #F9D54B);
+    box-shadow: 0px 2px 0 0 var(--yellow-tertiary, #f9d54b) !important;
   }
+}
+
+.list-controls .nav-pills > li a:hover {
+  box-shadow: 0px 2px 0 0 var(--yellow-tertiary, #f9d54b) !important;
 }
