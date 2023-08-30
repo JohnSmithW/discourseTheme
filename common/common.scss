@@ -38,8 +38,15 @@
   line-height: 28px;
 }
 
+.topic-list-item.visited .topic-list-data a.title:not(.badge-notification) {
+  color: var(--dark-blue, #0b074e);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
 .badge-category-bg {
-  border-radius: 0;
+  border-radius: 0 !important;
 }
 
 .category-name {
