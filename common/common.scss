@@ -36,6 +36,11 @@ body.has-sidebar-page #main-outlet {
   }
 }
 
+.sidebar-row {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
 .sidebar-footer-container {
   background: #e8e1eb;
 
