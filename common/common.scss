@@ -126,6 +126,7 @@
 
   svg {
     color: #fff;
+    margin-right: 0
   }
 
   span {
@@ -135,4 +136,9 @@
     font-weight: 400;
     line-height: 22px;
   }
+}
+
+
+.list-controls #create-topic:hover .d-icon {
+  color: #fff;
 }
