@@ -26,3 +26,25 @@
     line-height: 22px;
   }
 }
+
+.topic-list-item tr {
+  border-bottom: 1px solid var(--grey, #9694af);
+}
+
+.raw-topic-link {
+  color: var(--dark-blue, #0b074e);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.badge-category-bg {
+  border-radius: 0;
+}
+
+.category-name {
+  color: var(--dark-blue, #0b074e);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
