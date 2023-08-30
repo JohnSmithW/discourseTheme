@@ -24,6 +24,10 @@ body.has-sidebar-page #main-outlet {
 
 .sidebar-wrapper {
   background: #e8e1eb;
+  padding: 0;
+}
+
+.sidebar-sections {
   padding: 60px 20px 72px 70px;
 }
 
@@ -184,7 +188,8 @@ tr {
     margin-right: 0 !important;
   }
 
-  span, a {
+  span,
+  a {
     color: var(--white, #fff) !important;
     text-align: center !important;
     font-size: 14px !important;
