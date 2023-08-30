@@ -12,12 +12,12 @@
 
 #main-outlet {
   padding-top: 0;
-  padding-left: 50px;
+  padding-left: 0px;
   background: #f3eff5;
 }
 
 body.has-sidebar-page #main-outlet {
-  padding-left: 0;
+  padding-left: 50px;
 }
 
 .sidebar-wrapper {
