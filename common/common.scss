@@ -131,7 +131,7 @@ tr {
   box-shadow: 0px 2px 0 0 var(--yellow-tertiary, #f9d54b) !important;
 }
 
-.btn-default.btn.btn-icon-text, .btn-primary {
+.btn-default.btn.btn-icon-text {
   display: flex;
   height: 40px;
   padding: 10px 50px;
@@ -153,6 +153,36 @@ tr {
     font-size: 14px;
     font-weight: 400;
     line-height: 22px;
+  }
+
+  &:hover {
+    border: 1px solid var(--royal-blue-hover, #001dab) !important;
+    background: var(--royal-blue-hover, #001dab) !important;
+  }
+}
+
+.btn-primary {
+  display: flex !important;
+  height: 40px !important;
+  padding: 10px 50px !important;
+  box-sizing: border-box !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 10px !important;
+  border: 1px solid var(--royal-blue, #0029f4) !important;
+  background: var(--royal-blue, #0029f4) !important;
+
+  svg {
+    color: #fff !important;
+    margin-right: 0 !important;
+  }
+
+  span {
+    color: var(--white, #fff) !important;
+    text-align: center !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 22px !important;
   }
 
   &:hover {
