@@ -136,6 +136,11 @@
     font-weight: 400;
     line-height: 22px;
   }
+
+  &:hover {
+    border: 1px solid var(--royal-blue-hover, #001dab);
+    background: var(--royal-blue-hover, #001dab);
+  }
 }
 
 .list-controls #create-topic:hover .d-icon {
