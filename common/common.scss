@@ -1,5 +1,5 @@
 #main-outlet-wrapper {
-  gap: 50px;
+  gap: 0 !important;
 }
 .after-header {
   background: url(#{$herobg});
@@ -9,7 +9,9 @@
 
 #main-outlet {
   padding-top: 0;
+  padding-left: 50px;
   background: #f3eff5;
+  max-width: 100%;
 }
 
 .sidebar-wrapper {
