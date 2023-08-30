@@ -77,20 +77,20 @@
     align-items: center;
     gap: 10px;
 
-    .select-kit-selected-name .selected-name .choice {
-      span {
-        color: var(--royal-blue, #0029f4);
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 16px;
-      }
-    }
-
     svg {
       fill: var(--royal-blue, #0029f4);
       font-size: 14px;
       font-weight: 900;
       line-height: 12px;
+    }
+  }
+
+  .select-kit-header-wrapper .select-kit-selected-name .selected-name .choice {
+    span {
+      color: var(--royal-blue, #0029f4);
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 16px;
     }
   }
 }
