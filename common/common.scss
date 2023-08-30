@@ -27,7 +27,8 @@
   }
 }
 
-.topic-list-item, tr {
+.topic-list-item,
+tr {
   border-bottom: 1px solid var(--grey, #9694af);
 }
 
@@ -148,6 +149,6 @@
 }
 
 .topic-list .topic-list-data {
-  padding-left: 0;
-  border-left: none;
+  padding-left: 0 !important;
+  border-left: none !important;
 }
