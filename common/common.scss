@@ -138,8 +138,8 @@
   }
 
   &:hover {
-    border: 1px solid var(--royal-blue-hover, #001dab);
-    background: var(--royal-blue-hover, #001dab);
+    border: 1px solid var(--royal-blue-hover, #001dab) !important;
+    background: var(--royal-blue-hover, #001dab) !important;
   }
 }
 
