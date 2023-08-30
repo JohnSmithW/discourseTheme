@@ -30,6 +30,10 @@ body.has-sidebar-page #main-outlet {
 .sidebar-sections {
   padding: 60px 20px 72px 70px !important;
   width: 100% !important;
+
+  &::-webkit-scrollbar {
+    width: 0 !important;
+  }
 }
 
 .sidebar-footer-container {
