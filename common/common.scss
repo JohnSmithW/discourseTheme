@@ -3,6 +3,7 @@
   max-width: 100%;
   margin: 0;
   padding-right: 0;
+  padding-left: 0;
 }
 .after-header {
   background: url(#{$herobg});
@@ -12,7 +13,7 @@
 
 #main-outlet {
   padding-top: 0;
-  padding-left: 0px;
+  padding-left: 0;
   background: #f3eff5;
 }
 
