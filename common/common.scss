@@ -126,7 +126,7 @@
 
   svg {
     color: #fff;
-    margin-right: 0
+    margin-right: 0;
   }
 
   span {
@@ -138,7 +138,6 @@
   }
 }
 
-
 .list-controls #create-topic:hover .d-icon {
-  color: #fff;
+  color: #fff !important;
 }
