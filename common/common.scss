@@ -159,3 +159,9 @@ tr {
   color: #fff;
   width: 16px;
 }
+
+.widget-button.btn.btn-flat.btn-sidebar-toggle.no-text.btn-icon {
+  &:hover {
+    background: #0B074E;
+  }
+}
