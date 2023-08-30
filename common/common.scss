@@ -16,6 +16,10 @@
   background: #f3eff5;
 }
 
+body.has-sidebar-page #main-outlet {
+  padding-left: 0;
+}
+
 .sidebar-wrapper {
   background: #e8e1eb;
 }
