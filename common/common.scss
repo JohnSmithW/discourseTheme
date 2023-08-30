@@ -94,7 +94,7 @@
   }
 }
 
-.list-controls .nav-pills > li{
+.list-controls .nav-pills > li {
   a {
     color: var(--dark-blue, #0b074e);
     font-size: 16px;
@@ -111,4 +111,28 @@
 
 .list-controls .nav-pills > li a:hover {
   box-shadow: 0px 2px 0 0 var(--yellow-tertiary, #f9d54b) !important;
+}
+
+.btn-default.btn.btn-icon-text {
+  display: flex;
+  height: 40px;
+  padding: 10px 50px;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid var(--royal-blue, #0029f4);
+  background: var(--royal-blue, #0029f4);
+
+  svg {
+    color: #fff;
+  }
+
+  span {
+    color: var(--white, #fff);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+  }
 }
