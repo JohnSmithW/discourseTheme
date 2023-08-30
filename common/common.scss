@@ -65,3 +65,32 @@
   font-weight: 700;
   line-height: 24px; /* 150% */
 }
+
+.list-controls .combo-box .combo-box-header {
+  display: flex;
+  padding: 12px;
+  align-items: center;
+  border: 1px solid var(--royal-blue, #0029f4);
+
+  .select-kit-header-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .select-kit-selected-name .selected-name .choice {
+      span {
+        color: var(--royal-blue, #0029f4);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 16px;
+      }
+    }
+
+    svg {
+      fill: var(--royal-blue, #0029f4);
+      font-size: 14px;
+      font-weight: 900;
+      line-height: 12px;
+    }
+  }
+}
