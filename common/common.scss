@@ -167,3 +167,20 @@ tr {
     }
   }
 }
+
+#search-button {
+  width: 20px;
+  height: 20px;
+
+  svg {
+    color: #fff;
+  }
+
+  &:hover {
+    background: #fff;
+
+    svg {
+      color: #0b074e;
+    }
+  }
+}
