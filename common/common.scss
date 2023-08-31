@@ -300,6 +300,7 @@ tr {
 
   &__logo {
     width: 72px;
+    background-image: url(#{$logo});
   }
 
   &__line {
