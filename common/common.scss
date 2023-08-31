@@ -300,7 +300,10 @@ tr {
 
   &__logo {
     width: 72px;
+    height: 20px;
     background-image: url(#{$logo});
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 
   &__line {
