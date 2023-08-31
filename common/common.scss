@@ -289,3 +289,39 @@ tr {
   letter-spacing: 1px;
   text-transform: uppercase;
 }
+
+.header-top {
+  width: 100%;
+  background: #fff;
+  height: 38px;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+
+  &__logo {
+    width: 72px;
+  }
+
+  &__line {
+    margin-left: 30px;
+    margin-right: 40px;
+    width: 1px;
+    background: var(--dark-blue, #0b074e);
+  }
+
+  &-nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    &-item {
+      a {
+        color: var(--dark-blue, #0b074e);
+        text-align: center;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+      }
+    }
+  }
+}

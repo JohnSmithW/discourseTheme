@@ -9,6 +9,7 @@
   "maximum_discourse_version": null,
   "assets": {
     "font": "assets/helvetica/helveticaRegular.woff",
+    "logo": "assets/logo.png",
     "waveSvg": "assets/wave.svg",
     "herobg": "assets/herobg.svg",
     "introSvg1": "assets/introSvg1.svg",
