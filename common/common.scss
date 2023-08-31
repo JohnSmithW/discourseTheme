@@ -314,6 +314,9 @@ tr {
     display: flex;
     align-items: center;
     gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 
     &-item {
       a {
