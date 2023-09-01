@@ -365,16 +365,16 @@ tr {
   }
 }
 
-.d-header-icons.d-icon {
+.d-header-icons .d-icon {
   color: #fff !important;
 }
 
-.icon.btn-flat {
+.icon .btn-flat {
   &:hover {
-    background: #0b074e;
+    background: #0b074e !important;
 
     svg {
-      color: #fff;
+      color: #fff !important;
     }
   }
 }
