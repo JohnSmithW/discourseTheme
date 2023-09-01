@@ -337,7 +337,7 @@ tr {
         position: absolute;
         top: calc(100% - 0.3rem);
         display: block;
-        border-bottom: 0.3rem solid var(--yellow-tertiary, #F9D54B);
+        border-bottom: 0.3rem solid var(--yellow-tertiary, #f9d54b);
         width: 100%;
         transform: scaleX(0);
         transform-origin: 0 50%;
@@ -356,5 +356,11 @@ tr {
         line-height: 24px;
       }
     }
+  }
+}
+
+.topic-list button.bulk-select {
+  svg {
+    color: var(--grey, #9694af);
   }
 }
