@@ -756,3 +756,49 @@ tr {
     }
   }
 }
+
+.FooterNavigation {
+  &-items {
+    display: flex;
+    flex-direction: column;
+
+    &-item {
+      width: 100%;
+    }
+  }
+}
+
+.FooterNavigationItem {
+  width: 100%;
+
+  a,
+  span {
+    display: block;
+    font-family: var(--font-1);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: var(--color-secondary);
+    cursor: pointer;
+    transition: color var(--transition-duration);
+
+    &:hover {
+      color: var(--color-hover-link-yellow);
+    }
+  }
+
+  &_bottom {
+    a,
+    span {
+      margin-bottom: 0;
+      font-size: 1.4rem;
+      line-height: 1.57;
+      text-decoration: underline;
+      color: var(--color-primary);
+      &:hover {
+        color: var(--color-royal-blue);
+      }
+    }
+  }
+}
