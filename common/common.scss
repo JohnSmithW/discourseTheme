@@ -694,11 +694,11 @@ tr {
       padding: 0 !important;
       width: 100%;
       max-width: 100%;
-  
+
       @media (min-width: 768px) {
-        flex-direction: row;
-        align-items: center;
-        gap: 30px;
+        flex-direction: row !important;
+        align-items: center !important;
+        gap: 30px !important;
       }
     }
   }
@@ -717,7 +717,6 @@ tr {
       align-items: center;
     }
   }
-
 
   .FooterNavigationItem {
     white-space: nowrap;
