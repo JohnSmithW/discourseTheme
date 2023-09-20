@@ -598,7 +598,7 @@ tr {
     max-width: unset;
     height: 2.813rem;
     background: transparent;
-    transition: var(--transition-default);
+    transition: ease-in-out 0.5s;
     cursor: pointer;
 
     span {
@@ -607,6 +607,7 @@ tr {
       line-height: 1.57;
       text-align: center;
       color: #fff;
+      transition: ease-in-out 0.5s;
     }
 
     @media (min-width: 768px) {
