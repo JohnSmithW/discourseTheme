@@ -802,3 +802,73 @@ tr {
     }
   }
 }
+
+.PagePromoFooter {
+  display: flex;
+  flex-direction: column;
+  max-width: 15.7rem;
+  width: 100%;
+
+  @media (max-width: 768px) {
+    max-width: 22rem;
+  }
+
+  @media (min-width: 768px) {
+    max-width: none;
+  }
+
+  &__title {
+    font-family: var(--font-1);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #fff;
+
+    a,
+    span {
+      font: inherit;
+      color: inherit;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+
+  &__description {
+    margin: 0;
+    max-width: 20rem;
+    font-family: var(--font-1);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #fff;
+  }
+
+  &__button {
+    margin-top: 10px;
+    font-family: var(--font-1);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: var(--color-secondary);
+    transition: color var(--transition-duration);
+
+    &:hover {
+      color: var(--color-hover-link-yellow);
+    }
+  }
+
+  .PagePromo {
+    &-title {
+      margin-bottom: 15px;
+    }
+
+    &-description {
+      margin-bottom: 15px;
+    }
+  }
+}
