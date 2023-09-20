@@ -555,7 +555,7 @@ tr {
     font-family: var(--font-1);
     font-style: normal;
     font-weight: 400;
-    font-size: 1.6rem;
+    font-size: 1rem;
     line-height: 1.5;
     color: #fff;
   }
@@ -777,7 +777,7 @@ tr {
     font-family: var(--font-1);
     font-style: normal;
     font-weight: 400;
-    font-size: 1.6rem;
+    font-size: 1rem;
     line-height: 1.5;
     color: var(--color-secondary);
     cursor: pointer;
@@ -819,7 +819,7 @@ tr {
 
   &__title {
     font-weight: 700;
-    font-size: 1.6rem;
+    font-size: 1rem;
     line-height: 1.5;
     color: #fff;
 
@@ -837,26 +837,22 @@ tr {
   &__description {
     margin: 0;
     max-width: 20rem;
-    font-family: var(--font-1);
-    font-style: normal;
     font-weight: 400;
-    font-size: 1.6rem;
+    font-size: 1rem;
     line-height: 1.5;
     color: #fff;
   }
 
   &__button {
     margin-top: 10px;
-    font-family: var(--font-1);
-    font-style: normal;
     font-weight: 400;
-    font-size: 1.6rem;
+    font-size: 1rem;
     line-height: 1.5;
-    color: var(--color-secondary);
-    transition: color var(--transition-duration);
+    color: #f9d54b;
+    transition: color 0.5s;
 
     &:hover {
-      color: var(--color-hover-link-yellow);
+      color: #b79633;
     }
   }
 
