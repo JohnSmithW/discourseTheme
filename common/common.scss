@@ -597,14 +597,17 @@ tr {
     width: 100%;
     max-width: unset;
     height: 2.813rem;
-    font-weight: 400;
-    font-size: 0.9rem;
-    line-height: 1.57;
-    text-align: center;
-    color: #fff;
     background: transparent;
     transition: var(--transition-default);
     cursor: pointer;
+
+    span {
+      font-weight: 400;
+      font-size: 0.9rem;
+      line-height: 1.57;
+      text-align: center;
+      color: #fff;
+    }
 
     @media (min-width: 768px) {
       justify-content: flex-start;
