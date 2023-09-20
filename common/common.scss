@@ -627,15 +627,16 @@ tr {
       }
     }
 
-    @media (max-width: 768px) {
-      &:hover {
-        border-color: #f9d54b;
-        color: #f9d54b;
+    &:hover {
+      border-color: #f9d54b;
 
-        svg {
-          path {
-            fill: #f9d54b;
-          }
+      span {
+        color: #f9d54b;
+      }
+
+      svg {
+        path {
+          fill: #f9d54b;
         }
       }
     }
