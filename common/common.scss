@@ -690,7 +690,6 @@ tr {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    // gap: 15px;
     margin: 0 !important;
     padding: 0 !important;
     width: 100%;
@@ -699,7 +698,23 @@ tr {
     @media (max-width: 768px) {
       flex-direction: row;
       align-items: center;
-      // gap: 30px;
+    }
+  }
+
+  &-bottom .FooterNavigation-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+    max-width: 100%;
+
+    @media (max-width: 768px) {
+      flex-direction: row;
+      align-items: center;
+      gap: 30px;
     }
   }
 
