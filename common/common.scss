@@ -711,7 +711,7 @@ tr {
     width: 100%;
     max-width: 100%;
 
-    @media (max-width: 768px) {
+    @media (min-width: 768px) {
       flex-direction: row;
       align-items: center;
       gap: 30px;
