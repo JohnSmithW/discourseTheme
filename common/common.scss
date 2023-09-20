@@ -567,7 +567,7 @@ tr {
     &_mobile {
       display: block;
 
-      @media (max-width: 768px) {
+      @media (min-width: 768px) {
         display: none;
       }
     }
