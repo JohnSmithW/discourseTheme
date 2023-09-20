@@ -559,7 +559,7 @@ tr {
     display: none;
     margin-top: 40px;
 
-    @media (max-width: 768px) {
+    @media (min-width: 768px) {
       display: block;
       margin-top: 100px;
     }
