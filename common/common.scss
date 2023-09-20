@@ -407,6 +407,7 @@ tr {
     padding-bottom: 30px;
     padding-left: calc(50% - 650px);
     padding-right: calc(50% - 650px);
+    box-sizing: border-box;
 
     &[data-width="full-constrained"] {
       padding-left: 0;
@@ -903,13 +904,6 @@ tr {
 
     &:hover {
       opacity: 0.6;
-    }
-  }
-
-  &[data-social-service="linkedin"] {
-    svg {
-      height: 14px;
-      width: 14px;
     }
   }
 }
