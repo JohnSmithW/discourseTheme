@@ -623,18 +623,18 @@ tr {
       height: 0.375rem;
 
       path {
-        transition: var(--transition-default);
+        transition: ease-in-out 0.5s;
       }
     }
 
     @media (max-width: 768px) {
       &:hover {
-        border-color: var(--color-secondary);
-        color: var(--color-secondary);
+        border-color: #f9d54b;
+        color: #f9d54b;
 
         svg {
           path {
-            fill: var(--color-secondary);
+            fill: #f9d54b;
           }
         }
       }
