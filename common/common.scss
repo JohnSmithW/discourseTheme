@@ -606,7 +606,7 @@ tr {
     transition: var(--transition-default);
     cursor: pointer;
 
-    @media (max-width: 768px) {
+    @media (min-width: 768px) {
       justify-content: flex-start;
       margin-top: 40px;
       width: 12.188rem;
