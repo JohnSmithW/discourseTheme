@@ -412,9 +412,7 @@ tr {
       padding-right: 0;
     }
     width: 100%;
-    --color-link-text: var(--color-footer-text);
-    --color-primary-text: var(--color-footer-text);
-    background: var(--color-footer-bg);
+    background: #0b074e;
     color: var(--color-footer-text);
 
     @media (max-width: 768px) {
@@ -486,10 +484,8 @@ tr {
 
     &__title {
       margin-bottom: 40px;
-      font-family: var(--font-1);
-      font-style: normal;
       font-weight: 700;
-      font-size: 1.2rem;
+      font-size: 0.75rem;
       line-height: 1.167;
       letter-spacing: 1px;
       text-transform: uppercase;
@@ -601,10 +597,8 @@ tr {
     width: 100%;
     max-width: unset;
     height: 4.5rem;
-    font-family: var(--font-1);
-    font-style: normal;
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 0.9rem;
     line-height: 1.57;
     text-align: center;
     color: #fff;
@@ -705,7 +699,7 @@ tr {
 
   &-disclaimer {
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 0.9rem;
     line-height: 1.57;
     color: #605f71;
 
@@ -792,7 +786,7 @@ tr {
     a,
     span {
       margin-bottom: 0;
-      font-size: 1.4rem;
+      font-size: 0.9rem;
       line-height: 1.57;
       text-decoration: underline;
       color: var(--color-primary);
