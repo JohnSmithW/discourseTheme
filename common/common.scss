@@ -15,7 +15,7 @@
   font-stretch: normal;
   font-weight: 400;
   src: url(#{$helveticaOblique2}) format("woff2"),
-    url(#{helveticaOblique}) format("woff");
+    url(#{$helveticaOblique}) format("woff");
 }
 
 @font-face {
