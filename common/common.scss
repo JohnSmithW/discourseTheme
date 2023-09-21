@@ -1534,7 +1534,7 @@ nav.post-controls {
     gap: 1.625rem;
     background: #f3eff5;
 
-    @media (max-width: 768px) {
+    @media (min-width: 768px) {
       flex-direction: row;
       align-items: center;
     }
