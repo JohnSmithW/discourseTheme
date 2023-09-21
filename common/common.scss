@@ -1398,18 +1398,6 @@ nav.post-controls {
     }
   }
 
-  .Page-footer-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
-    gap: 20px 30px;
-
-    @media (max-width: 768px) {
-      gap: 30px;
-    }
-  }
-
   &-navigation {
     .FooterNavigation-items-item {
       &:not(:last-child) {
@@ -1745,6 +1733,18 @@ nav.post-controls {
       &:hover {
         color: #fff;
       }
+    }
+  }
+
+  &-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px 30px;
+
+    @media (max-width: 768px) {
+      gap: 30px;
     }
   }
 
