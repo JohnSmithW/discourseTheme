@@ -459,6 +459,10 @@ tr {
   justify-content: center;
   align-items: center;
 
+  @media(max-width: 1340px) {
+    justify-content: flex-start;
+  }
+
   &__logo {
     width: 72px;
     height: 20px;
