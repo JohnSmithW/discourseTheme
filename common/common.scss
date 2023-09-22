@@ -1630,14 +1630,11 @@ nav.post-controls {
   }
 
   &-logo {
-
-    a {
-      background-image: url(#{$footerLogo});
-      background-repeat: no-repeat;
-      background-size: contain;
-      width: 135px;
-      height: 38px;
-    }
+    background-image: url(#{$footerLogo});
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 135px;
+    height: 38px;
 
     img {
       margin-bottom: 50px;
