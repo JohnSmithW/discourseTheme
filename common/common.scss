@@ -1589,7 +1589,7 @@ nav.post-controls {
       width: 100%;
       max-width: 100%;
 
-      @media (min-width: 768px) {
+      @media (min-width: 48rem) {
         flex-direction: row !important;
         align-items: center !important;
         gap: 30px !important;
@@ -1606,11 +1606,6 @@ nav.post-controls {
     width: 100%;
     max-width: 100%;
     list-style: none;
-
-    @media (min-width: 768px) {
-      flex-direction: row;
-      align-items: center;
-    }
   }
 
   .FooterNavigationItem {
@@ -1642,11 +1637,8 @@ nav.post-controls {
     }
 
     img {
-     
       width: 150px;
       height: auto;
-
-      
     }
   }
 
