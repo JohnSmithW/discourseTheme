@@ -2325,4 +2325,44 @@ nav.post-controls {
   background: #fff !important;
   padding: 25px 20px 20px 20px !important;
   gap: 20px;
+  justify-content: space-between;
+}
+
+.group-info-wrapper {
+  margin: 0 !important;
+}
+
+.group-membership {
+  margin: 0 !important;
+}
+
+.group-info {
+  color: var(--dark-blue, #0b074e) !important;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: capitalize;
+}
+
+.group-description {
+  color: var(--medium-grey, #605f71);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.group-user-count {
+  flex-direction: column;
+  align-items: center;
+
+  color: var(--dark-blue, #0b074e) !important;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  svg {
+    width: 18.028px;
+  }
 }
