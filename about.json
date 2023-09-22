@@ -18,6 +18,7 @@
     "helveticaBold2": "assets/helvetica/helveticaBold.woff2",
     "font": "assets/helvetica/helveticaRegular.woff",
     "logo": "assets/logo.png",
+    "footerLogo": "assets/footerLogo.svg",
     "waveSvg": "assets/wave.svg",
     "herobg": "assets/herobg.svg",
     "icons-sprite": "assets/icons-sprite.svg",
