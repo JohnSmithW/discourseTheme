@@ -1595,7 +1595,7 @@ nav.post-controls {
     max-width: 100%;
     list-style: none;
 
-    @media (max-width: 768px) {
+    @media (min-width: 768px) {
       flex-direction: row;
       align-items: center;
     }
