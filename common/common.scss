@@ -469,7 +469,7 @@ tr {
   background: #fff;
   height: 38px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   padding: 14px 20px 14px 70px;
   box-sizing: border-box;
@@ -480,12 +480,12 @@ tr {
   @media (min-width: 768px) {
     padding-left: 20px;
     padding-right: 20px;
-    justify-content: flex-start;
   }
 
   @media (min-width: 1340px) {
     padding-left: calc(50% - 650px);
     padding-right: calc(50% - 650px);
+    justify-content: center;
   }
 
   &__logo {
