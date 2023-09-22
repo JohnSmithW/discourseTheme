@@ -186,9 +186,7 @@ body {
   }
 
   @media (min-width: 1340px) {
-    padding-left: calc(50% - 650px);
-    padding-right: calc(50% - 650px);
-    justify-content: flex-start;
+    padding: 14px 20px 14px 70px;
   }
   box-sizing: border-box;
 }
