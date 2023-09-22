@@ -1595,6 +1595,10 @@ nav.post-controls {
         gap: 30px !important;
       }
     }
+
+    .FooterNavigationItem {
+      white-space: nowrap;
+    }
   }
 
   .FooterNavigation-items {
@@ -1606,10 +1610,6 @@ nav.post-controls {
     width: 100%;
     max-width: 100%;
     list-style: none;
-  }
-
-  .FooterNavigationItem {
-    white-space: nowrap;
   }
 
   &-disclaimer {
