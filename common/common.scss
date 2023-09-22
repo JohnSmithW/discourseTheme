@@ -2314,7 +2314,6 @@ nav.post-controls {
   }
 }
 
-
 // GROUPS
 
 .groups-boxes {
@@ -2322,5 +2321,5 @@ nav.post-controls {
 }
 
 .group-box-inner {
-  min-height: 12.875em;
+  min-height: 12.875em !important;
 }
