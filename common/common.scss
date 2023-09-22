@@ -473,6 +473,10 @@ tr {
     width: 1px;
     height: 24px;
     background: var(--dark-blue, #0b074e);
+
+    @media(max-width: 1340px) {
+      display: none;
+    }
   }
 
   &-nav {
@@ -483,6 +487,10 @@ tr {
     margin: 0;
     padding: 0;
     height: 100%;
+
+    @media(max-width: 1340px) {
+      display: none;
+    }
 
     &-item {
       height: 100%;
