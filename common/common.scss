@@ -1635,15 +1635,18 @@ nav.post-controls {
     background-size: contain;
     width: 135px;
     height: 38px;
+    margin-bottom: 50px;
+
+    @media (max-width: 768px) {
+      margin-bottom: 100px;
+    }
 
     img {
-      margin-bottom: 50px;
+     
       width: 150px;
       height: auto;
 
-      @media (max-width: 768px) {
-        margin-bottom: 100px;
-      }
+      
     }
   }
 
