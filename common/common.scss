@@ -114,15 +114,21 @@ body {
     }
   }
 
-  // body.has-sidebar-page & {
-  //   @media (min-width: 1280px) {
-  //     padding-left: 50px;
+  body.has-sidebar-page & {
+    @media (min-width: 1280px) {
+      .container {
+        padding-left: 50px;
+      }
 
-  //     .more-topics__container {
-  //       margin-left: -50px;
-  //     }
-  //   }
-  // }
+      #main-container {
+        padding-left: 0;
+      }
+
+      .more-topics__container {
+        margin-left: -50px;
+      }
+    }
+  }
 
   // #main-outlet-wrapper & {
   //   @media (min-width: 1280px) {
